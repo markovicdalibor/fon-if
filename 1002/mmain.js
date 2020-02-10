@@ -17,9 +17,22 @@ let pass= prompt('unesi password');
 
 function prikaziSliku() {
     document.write(`<h1>Nova slika</h1><img src='../../slike/tesla.jpg'>`);
-}*/
+}
 
 function reakcija() {
     //alert("NEEEEEEEEEEEEEEEEEEEEEEEEEEEEE")
     document.write(`<h1>Sad si sve obrisao</h1>`);
+}*/
+
+function provera() {
+    let lozinka=forma.lozinka.value.length
+    if (lozinka<5) {
+        document.getElementById('paragraf').innerHTML="lozinka je mnogo slaba"
+    }
+    else if (lozinka>10) {
+        document.getElementById('paragraf').innerHTML="lozinka je mnogo jaka"
+    }
+    else{
+        document.getElementById('paragraf').innerHTML="lozinka je dobra"
+    }
 }
