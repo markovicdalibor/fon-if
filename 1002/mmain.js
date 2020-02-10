@@ -7,14 +7,15 @@ const novaReakcija = ()=>{
 
 }*/
 
-/*let user = prompt('unesi ime');
-let pass= prompt('unesi password');
+
 const reakcijaClick =()=>{
+    let user = prompt('unesi ime');
+let pass= prompt('unesi password');
     if (user=="admin" && pass=="admin") {
         document.write(`Zdravo ${user}<br>Pristup odobrem`)
     }
-}*/
-
+}
+/*
 function prikaziSliku() {
     document.write(`<h1>Nova slika</h1><img src='../../slike/tesla.jpg'>`);
-}
+}*/
